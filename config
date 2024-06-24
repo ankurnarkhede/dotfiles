@@ -1,0 +1,9 @@
+# github account
+Host github.com
+	HostName github.com
+	IdentityFile ~/.ssh/private_file_name_personal
+
+# github work
+Host github-work
+   HostName github.com
+   IdentityFile ~/.ssh/private_file_name_work
