@@ -1,3 +1,4 @@
+# Location ~/.ssh
 # github account
 Host github.com
 	HostName github.com
