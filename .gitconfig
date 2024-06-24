@@ -1,0 +1,5 @@
+[user]
+	name = Ankur Narkhede
+	email = ankurnarkhede@gmail.com
+[includeIf "gitdir:~/work/"]
+    path = ~/IdeaProjects/work/.gitconfig-work
