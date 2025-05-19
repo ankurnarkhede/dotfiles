@@ -6,3 +6,8 @@ alias gc='git commit -m'
 alias ss='source ~/.zshrc'
 alias colimastart='colima start --cpu 6 --memory 12'
 alias ssl='NODE_OPTIONS=--dns-result-order=ipv4first local-ssl-proxy --source 3001 --target 3000'
+
+# ping with timestamp, defaulting to google.com
+pp() {
+  ping "${1:-google.com}" | ts
+}
